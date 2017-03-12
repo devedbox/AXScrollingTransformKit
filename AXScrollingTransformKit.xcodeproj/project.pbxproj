@@ -105,6 +105,7 @@
 				DCC350321E753F2A005C6540 /* AppDelegate.m */,
 				DCC350341E753F2A005C6540 /* ViewController.h */,
 				DCC350351E753F2A005C6540 /* ViewController.m */,
+				DCC350611E754088005C6540 /* Classes */,
 				DCC350371E753F2A005C6540 /* Main.storyboard */,
 				DCC3503A1E753F2A005C6540 /* Assets.xcassets */,
 				DCC3503C1E753F2A005C6540 /* LaunchScreen.storyboard */,
@@ -138,6 +139,13 @@
 				DCC350551E753F2A005C6540 /* Info.plist */,
 			);
 			path = AXScrollingTransformKitUITests;
+			sourceTree = "<group>";
+		};
+		DCC350611E754088005C6540 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
