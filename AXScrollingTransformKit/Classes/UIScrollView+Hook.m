@@ -27,5 +27,24 @@
 #import <objc/runtime.h>
 
 @implementation UIScrollView (Hook)
++ (void)load {
+    // Changed the implementation of the scroll methods.
+    Method original = class_getInstanceMethod(self, NSSelectorFromString(@"_notifyDidScroll"));
+    Method hooked = class_getInstanceMethod(self, @selector(_axhook_scrollViewDidScroll));
+    
+    if (original != NULL) {
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            method_exchangeImplementations(original, hooked);
+        });
+    }
+}
 
+- (void)_axhook_scrollViewDidScroll {
+    [self _axhook_scrollViewDidScroll];
+    
+    // Handle the custom components here:
+    
+    
+}
 @end
