@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC350301E753F2A005C6540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC3502F1E753F2A005C6540 /* main.m */; };
+		DCC350331E753F2A005C6540 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC350321E753F2A005C6540 /* AppDelegate.m */; };
+		DCC350361E753F2A005C6540 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC350351E753F2A005C6540 /* ViewController.m */; };
+		DCC350391E753F2A005C6540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC350371E753F2A005C6540 /* Main.storyboard */; };
+		DCC3503B1E753F2A005C6540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3503A1E753F2A005C6540 /* Assets.xcassets */; };
+		DCC3503E1E753F2A005C6540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC3503C1E753F2A005C6540 /* LaunchScreen.storyboard */; };
+		DCC350491E753F2A005C6540 /* AXScrollingTransformKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC350481E753F2A005C6540 /* AXScrollingTransformKitTests.m */; };
+		DCC350541E753F2A005C6540 /* AXScrollingTransformKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC350531E753F2A005C6540 /* AXScrollingTransformKitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC350451E753F2A005C6540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC350231E753F2A005C6540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC3502A1E753F2A005C6540;
+			remoteInfo = AXScrollingTransformKit;
+		};
+		DCC350501E753F2A005C6540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC350231E753F2A005C6540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC3502A1E753F2A005C6540;
+			remoteInfo = AXScrollingTransformKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCC3502B1E753F2A005C6540 /* AXScrollingTransformKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXScrollingTransformKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC3502F1E753F2A005C6540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC350311E753F2A005C6540 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCC350321E753F2A005C6540 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCC350341E753F2A005C6540 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCC350351E753F2A005C6540 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCC350381E753F2A005C6540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC3503A1E753F2A005C6540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC3503D1E753F2A005C6540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC3503F1E753F2A005C6540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC350441E753F2A005C6540 /* AXScrollingTransformKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXScrollingTransformKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC350481E753F2A005C6540 /* AXScrollingTransformKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXScrollingTransformKitTests.m; sourceTree = "<group>"; };
+		DCC3504A1E753F2A005C6540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC3504F1E753F2A005C6540 /* AXScrollingTransformKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXScrollingTransformKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC350531E753F2A005C6540 /* AXScrollingTransformKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXScrollingTransformKitUITests.m; sourceTree = "<group>"; };
+		DCC350551E753F2A005C6540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC350281E753F2A005C6540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC350411E753F2A005C6540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3504C1E753F2A005C6540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC350221E753F2A005C6540 = {
+			isa = PBXGroup;
+			children = (
+				DCC3502D1E753F2A005C6540 /* AXScrollingTransformKit */,
+				DCC350471E753F2A005C6540 /* AXScrollingTransformKitTests */,
+				DCC350521E753F2A005C6540 /* AXScrollingTransformKitUITests */,
+				DCC3502C1E753F2A005C6540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC3502C1E753F2A005C6540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3502B1E753F2A005C6540 /* AXScrollingTransformKit.app */,
+				DCC350441E753F2A005C6540 /* AXScrollingTransformKitTests.xctest */,
+				DCC3504F1E753F2A005C6540 /* AXScrollingTransformKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC3502D1E753F2A005C6540 /* AXScrollingTransformKit */ = {
+			isa = PBXGroup;
+			children = (
+				DCC350311E753F2A005C6540 /* AppDelegate.h */,
+				DCC350321E753F2A005C6540 /* AppDelegate.m */,
+				DCC350341E753F2A005C6540 /* ViewController.h */,
+				DCC350351E753F2A005C6540 /* ViewController.m */,
+				DCC350371E753F2A005C6540 /* Main.storyboard */,
+				DCC3503A1E753F2A005C6540 /* Assets.xcassets */,
+				DCC3503C1E753F2A005C6540 /* LaunchScreen.storyboard */,
+				DCC3503F1E753F2A005C6540 /* Info.plist */,
+				DCC3502E1E753F2A005C6540 /* Supporting Files */,
+			);
+			path = AXScrollingTransformKit;
+			sourceTree = "<group>";
+		};
+		DCC3502E1E753F2A005C6540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3502F1E753F2A005C6540 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCC350471E753F2A005C6540 /* AXScrollingTransformKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC350481E753F2A005C6540 /* AXScrollingTransformKitTests.m */,
+				DCC3504A1E753F2A005C6540 /* Info.plist */,
+			);
+			path = AXScrollingTransformKitTests;
+			sourceTree = "<group>";
+		};
+		DCC350521E753F2A005C6540 /* AXScrollingTransformKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC350531E753F2A005C6540 /* AXScrollingTransformKitUITests.m */,
+				DCC350551E753F2A005C6540 /* Info.plist */,
+			);
+			path = AXScrollingTransformKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC3502A1E753F2A005C6540 /* AXScrollingTransformKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC350581E753F2A005C6540 /* Build configuration list for PBXNativeTarget "AXScrollingTransformKit" */;
+			buildPhases = (
+				DCC350271E753F2A005C6540 /* Sources */,
+				DCC350281E753F2A005C6540 /* Frameworks */,
+				DCC350291E753F2A005C6540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AXScrollingTransformKit;
+			productName = AXScrollingTransformKit;
+			productReference = DCC3502B1E753F2A005C6540 /* AXScrollingTransformKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC350431E753F2A005C6540 /* AXScrollingTransformKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC3505B1E753F2A005C6540 /* Build configuration list for PBXNativeTarget "AXScrollingTransformKitTests" */;
+			buildPhases = (
+				DCC350401E753F2A005C6540 /* Sources */,
+				DCC350411E753F2A005C6540 /* Frameworks */,
+				DCC350421E753F2A005C6540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC350461E753F2A005C6540 /* PBXTargetDependency */,
+			);
+			name = AXScrollingTransformKitTests;
+			productName = AXScrollingTransformKitTests;
+			productReference = DCC350441E753F2A005C6540 /* AXScrollingTransformKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC3504E1E753F2A005C6540 /* AXScrollingTransformKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC3505E1E753F2A005C6540 /* Build configuration list for PBXNativeTarget "AXScrollingTransformKitUITests" */;
+			buildPhases = (
+				DCC3504B1E753F2A005C6540 /* Sources */,
+				DCC3504C1E753F2A005C6540 /* Frameworks */,
+				DCC3504D1E753F2A005C6540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC350511E753F2A005C6540 /* PBXTargetDependency */,
+			);
+			name = AXScrollingTransformKitUITests;
+			productName = AXScrollingTransformKitUITests;
+			productReference = DCC3504F1E753F2A005C6540 /* AXScrollingTransformKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC350231E753F2A005C6540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jiangyou;
+				TargetAttributes = {
+					DCC3502A1E753F2A005C6540 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TKA48YVS5T;
+						ProvisioningStyle = Automatic;
+					};
+					DCC350431E753F2A005C6540 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TKA48YVS5T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCC3502A1E753F2A005C6540;
+					};
+					DCC3504E1E753F2A005C6540 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TKA48YVS5T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCC3502A1E753F2A005C6540;
+					};
+				};
+			};
+			buildConfigurationList = DCC350261E753F2A005C6540 /* Build configuration list for PBXProject "AXScrollingTransformKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC350221E753F2A005C6540;
+			productRefGroup = DCC3502C1E753F2A005C6540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC3502A1E753F2A005C6540 /* AXScrollingTransformKit */,
+				DCC350431E753F2A005C6540 /* AXScrollingTransformKitTests */,
+				DCC3504E1E753F2A005C6540 /* AXScrollingTransformKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC350291E753F2A005C6540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC3503E1E753F2A005C6540 /* LaunchScreen.storyboard in Resources */,
+				DCC3503B1E753F2A005C6540 /* Assets.xcassets in Resources */,
+				DCC350391E753F2A005C6540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC350421E753F2A005C6540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3504D1E753F2A005C6540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC350271E753F2A005C6540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC350361E753F2A005C6540 /* ViewController.m in Sources */,
+				DCC350331E753F2A005C6540 /* AppDelegate.m in Sources */,
+				DCC350301E753F2A005C6540 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC350401E753F2A005C6540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC350491E753F2A005C6540 /* AXScrollingTransformKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3504B1E753F2A005C6540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC350541E753F2A005C6540 /* AXScrollingTransformKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC350461E753F2A005C6540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC3502A1E753F2A005C6540 /* AXScrollingTransformKit */;
+			targetProxy = DCC350451E753F2A005C6540 /* PBXContainerItemProxy */;
+		};
+		DCC350511E753F2A005C6540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC3502A1E753F2A005C6540 /* AXScrollingTransformKit */;
+			targetProxy = DCC350501E753F2A005C6540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC350371E753F2A005C6540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC350381E753F2A005C6540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC3503C1E753F2A005C6540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC3503D1E753F2A005C6540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC350561E753F2A005C6540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC350571E753F2A005C6540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC350591E753F2A005C6540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKA48YVS5T;
+				INFOPLIST_FILE = AXScrollingTransformKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangyou.AXScrollingTransformKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCC3505A1E753F2A005C6540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKA48YVS5T;
+				INFOPLIST_FILE = AXScrollingTransformKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangyou.AXScrollingTransformKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCC3505C1E753F2A005C6540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TKA48YVS5T;
+				INFOPLIST_FILE = AXScrollingTransformKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangyou.AXScrollingTransformKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AXScrollingTransformKit.app/AXScrollingTransformKit";
+			};
+			name = Debug;
+		};
+		DCC3505D1E753F2A005C6540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TKA48YVS5T;
+				INFOPLIST_FILE = AXScrollingTransformKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangyou.AXScrollingTransformKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AXScrollingTransformKit.app/AXScrollingTransformKit";
+			};
+			name = Release;
+		};
+		DCC3505F1E753F2A005C6540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TKA48YVS5T;
+				INFOPLIST_FILE = AXScrollingTransformKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangyou.AXScrollingTransformKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AXScrollingTransformKit;
+			};
+			name = Debug;
+		};
+		DCC350601E753F2A005C6540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TKA48YVS5T;
+				INFOPLIST_FILE = AXScrollingTransformKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangyou.AXScrollingTransformKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AXScrollingTransformKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC350261E753F2A005C6540 /* Build configuration list for PBXProject "AXScrollingTransformKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC350561E753F2A005C6540 /* Debug */,
+				DCC350571E753F2A005C6540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC350581E753F2A005C6540 /* Build configuration list for PBXNativeTarget "AXScrollingTransformKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC350591E753F2A005C6540 /* Debug */,
+				DCC3505A1E753F2A005C6540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCC3505B1E753F2A005C6540 /* Build configuration list for PBXNativeTarget "AXScrollingTransformKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC3505C1E753F2A005C6540 /* Debug */,
+				DCC3505D1E753F2A005C6540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCC3505E1E753F2A005C6540 /* Build configuration list for PBXNativeTarget "AXScrollingTransformKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC3505F1E753F2A005C6540 /* Debug */,
+				DCC350601E753F2A005C6540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC350231E753F2A005C6540 /* Project object */;
+}
