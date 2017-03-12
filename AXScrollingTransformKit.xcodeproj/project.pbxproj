@@ -15,6 +15,7 @@
 		DCC3503E1E753F2A005C6540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC3503C1E753F2A005C6540 /* LaunchScreen.storyboard */; };
 		DCC350491E753F2A005C6540 /* AXScrollingTransformKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC350481E753F2A005C6540 /* AXScrollingTransformKitTests.m */; };
 		DCC350541E753F2A005C6540 /* AXScrollingTransformKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC350531E753F2A005C6540 /* AXScrollingTransformKitUITests.m */; };
+		DCC350641E7540D9005C6540 /* UIScrollView+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC350631E7540D9005C6540 /* UIScrollView+Hook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DCC3504F1E753F2A005C6540 /* AXScrollingTransformKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXScrollingTransformKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC350531E753F2A005C6540 /* AXScrollingTransformKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXScrollingTransformKitUITests.m; sourceTree = "<group>"; };
 		DCC350551E753F2A005C6540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC350621E7540D9005C6540 /* UIScrollView+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Hook.h"; sourceTree = "<group>"; };
+		DCC350631E7540D9005C6540 /* UIScrollView+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Hook.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		DCC350611E754088005C6540 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DCC350621E7540D9005C6540 /* UIScrollView+Hook.h */,
+				DCC350631E7540D9005C6540 /* UIScrollView+Hook.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			files = (
 				DCC350361E753F2A005C6540 /* ViewController.m in Sources */,
 				DCC350331E753F2A005C6540 /* AppDelegate.m in Sources */,
+				DCC350641E7540D9005C6540 /* UIScrollView+Hook.m in Sources */,
 				DCC350301E753F2A005C6540 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
