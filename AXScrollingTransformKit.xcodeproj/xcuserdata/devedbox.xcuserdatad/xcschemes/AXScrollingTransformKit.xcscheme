@@ -48,6 +48,16 @@
                ReferencedContainer = "container:AXScrollingTransformKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DCBCB4FE1E7631740031CB82"
+               BuildableName = "AXScrollingTransformKitFrameworkTests.xctest"
+               BlueprintName = "AXScrollingTransformKitFrameworkTests"
+               ReferencedContainer = "container:AXScrollingTransformKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

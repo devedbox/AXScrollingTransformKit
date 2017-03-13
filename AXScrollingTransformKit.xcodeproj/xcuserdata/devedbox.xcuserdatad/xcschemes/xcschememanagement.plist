@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>AXScrollingTransformKitFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DCBCB4F61E7631740031CB82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCBCB4FE1E7631740031CB82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DCC3502A1E753F2A005C6540</key>
 		<dict>
 			<key>primary</key>
