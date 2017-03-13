@@ -20,6 +20,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    /*
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.translatesAutoresizingMaskIntoConstraints = NO;
+    [button setTitle:@"NSLayoutAnchor" forState:UIControlStateNormal];
+    [button setTintColor:UIColor.whiteColor];
+    [button setBackgroundColor:UIColor.orangeColor];
+    [_scrollView addSubview:button];
+    
+    [button.leadingAnchor constraintEqualToAnchor:_scrollView.leadingAnchor].active = YES;
+    [button.trailingAnchor constraintEqualToAnchor:_scrollView.trailingAnchor].active = YES;
+    [button.topAnchor constraintEqualToAnchor:_scrollView.imageView.bottomAnchor].active = YES;
+    [button.heightAnchor constraintEqualToConstant:88.0].active = YES;
+     */
 }
 
 
